@@ -1,0 +1,518 @@
+
+@font-face {
+  font-family: 'playfair_display';
+  src: url('../fonts/playfairdisplay-bold-webfont.eot');
+  src: url('../fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+       url('../fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
+       url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'playfair_display';
+  src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
+  src: url('../fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+       url('../fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+       url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'playfair_display';
+  src: url('../fonts/playfairdisplay-italic-webfont.eot');
+  src: url('../fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+       url('../fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
+       url('../fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'playfair_display';
+  src: url('../fonts/playfairdisplay-regular-webfont.eot');
+  src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+       url('../fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+       url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'raleway';
+  src: url('../fonts/raleway-light-webfont.eot');
+  src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+       url('../fonts/vraleway-light-webfont.ttf') format('truetype'),
+       url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'raleway';
+  src: url('../fonts/raleway-lightitalic-webfont.eot');
+  src: url('../fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
+       url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'raleway';
+  src: url('../fonts/raleway-medium-webfont.eot');
+  src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
+       url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+  font-weight: normal;
+  font-style: bold;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'raleway';
+  src: url('../fonts/raleway-mediumitalic-webfont.eot');
+  src: url('../fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
+       url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+
+}/*
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+
+
+/*
+p {
+  color: black;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-align: none;
+  text-decoration: normal;
+  text-transform: none;
+  word-spacing: 15px;
+}
+*/
+/* Box model Traits */
+/*
+p {
+  margin: 15px;
+  border-top: 1px solid black;
+  border-bottom: 3px dotted blue;
+  padding-left: 30px;
+  width: 300px;
+}
+*/
+body {
+  width: 420px;
+  margin: 0 auto;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 87.5%;
+  color: #2d2d2d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'playfair_display', Arial, sans-serif;
+}
+
+h3, .nav li {
+  color: #e2574c
+}
+
+.banner {
+  border: 5px #ffffff;
+  filter: grayscale(50%);
+  opacity: 50%;
+}
+
+/* Top part with logo, cart and nav links */
+/* Top part with logo, cart and nav links */
+/* Top part with logo, cart and nav links */
+/* Top Rox flex box attempt */
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+
+.logo {
+  display: flex;
+  order: 1;
+  width: 75%;
+}
+
+.nav {
+  color: #e2547c;
+  display: inline-block;
+  display: flex;
+  order: 3;
+  top: 60px;
+  margin: 0 auto;
+  padding: 0 20px 40px 20px;
+  justify-content: space-between;
+}
+
+.cart {
+  display: flex ;
+  order: 2;
+  width: 25%;
+}
+
+.container, .nav, .a3, .s3, .a4, .s4, .updates {
+  padding: 20px 2px 2px 0px;
+  width: 420px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* .a1.container { 
+  padding: 20px 0 20px 0px;
+}*/
+
+.container p {
+  padding: 10px 0 20px 0;
+}
+.s3 li {
+    display: inline-block;
+    text-align: none;
+}
+
+.nav li {
+  display: inline;
+}
+
+/* Banner with 2 background images and text centered */
+/* Banner with 2 background images and text centered */
+/* Banner with 2 background images and text centered */
+.collection, .season {
+    text-align: center;
+    font-size: 60px;
+    margin: 0px auto;
+}
+
+.collection{
+  text-transform: uppercase;
+  padding: 0 0 20px 0;
+}
+
+.season {
+  padding: 20px 0 0 0;
+}
+
+.hero {
+  background-image: url('../images/banner-girl.png'), url('../images/flower-bkgd.jpg');
+  background-position: center 60px, center top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 150px, cover;
+  margin-top: 60px;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FLEXBOX Categories */
+/* FLEXBOX Categories */
+/* FLEXBOX Categories */
+
+/* Categories - attempting Flex box.  two lines
+ Using Class Box (box1, box2) and p*/
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  size: 420px;
+}
+
+.men {
+ background-image: url(../images/mens-category.jpg);
+ background-size: contain;
+ margin: 1px 1px 1px 1px;
+ background-size: 420px 50%;
+ width: 99%;
+ height: 150px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+ color: #ffffff;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ order: 1;
+}
+
+.trend {
+  background: url(../images/trends-category.jpg);
+  background-size: contain;
+  margin: 1px 1px 1px 1px;
+  background-size: 420px 50%;
+  width: 49%;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+}
+
+.glass {
+  background: url(../images/glasses-category.jpg);
+  background-size: contain;
+  margin: 1px 1px 1px 1px;
+  background-size: 420px 50%;
+  width: 49%;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 3;
+}
+
+.sale {
+  background: url(../images/sale-category.jpg);
+  background-size: contain;
+  margin: 1px 1px 1px 1px;
+  background-size: 420px 50%;
+  width: 49%;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+}
+
+.bag {
+  background: url(../images/bags-category.jpg);
+  background-size: contain;
+  margin: 1px 1px 1px 1px;
+  background-size: 420px 50%;
+  width: 49%;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+}
+
+.women {
+  background: url(../images/womens-category.jpg);
+  background-size: contain;
+  margin: 1px 1px 1px 1px;
+  background-size: 420px 50%;
+  width: 99%;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 3;
+}
+
+
+
+
+/* Sign up for updates text with background image */
+/* Sign up for updates text with background image */
+/* Sign up for updates text with background image */
+
+.updates {
+  background: url(../images/wave-bkgd.jpg);
+  background-size: contain;
+  margin: 2em 0px .5em 0px;
+  background-size: 420px 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.s4 {
+ padding: 1em 0 2em 0;
+}
+
+form {
+  	background-color: #ffffff;
+    padding: 5px 25px 10px 5px;
+    border-radius: 50px;
+    width: 72%;
+    height: 2em;
+    align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+input {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 16px;
+    color: #969696;
+    padding: 0 0 0px 5px;
+    width: 5cm;
+}
+
+  button{
+    background-color: #ff0000;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 10px 16px;
+    border: 0;
+  }
+
+  button:hover {
+    color: #000000;
+  }
+
+
+/* Address and Social media links with awesome font icons */
+/* Address and Social media links with awesome font icons */
+/* Address and Social media links with awesome font icons */
+footer {
+  display: flex;
+  Justify-content: space-between;
+  align-content: flex-end;
+  background-color: #242424;
+  color: #969696;
+  padding: 1em 1em 1em 1em;
+}
+
+.copyright p {
+  display: flex;
+  order: 1;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.copyright a {
+  padding: .5em 0;
+}
+
+.socialmedia {
+  display: flex;
+  order: 2;
+  flex-direction: column;
+  text-align: left;
+  align-self: flex-end;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.socialmedia li {
+  padding: .4em 0;
+}
+
+a:link {
+  color: #969696; /* unvisited link */
+}
+
+a:visited {
+  color: #969696; /* visited link */
+}
+
+a:hover {
+  color: #b64036; /* mouse over link */
+}
+
+a:active {
+  color: blue; /* selected link */
+}
+
+
+
+
+/* @media all and (max-width: 720px); */
+
+/* @media all and (max-width: 1240px); */
