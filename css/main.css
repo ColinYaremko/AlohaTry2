@@ -1,4 +1,8 @@
 
+/* All of hte wonderful fonts!!!*/
+/* All of hte wonderful fonts!!!*/
+/* All of hte wonderful fonts!!!*/
+
 @font-face {
   font-family: 'playfair_display';
   src: url('../fonts/playfairdisplay-bold-webfont.eot');
@@ -10,9 +14,6 @@
   font-style: normal;
 
 }
-
-
-
 
 @font-face {
   font-family: 'playfair_display';
@@ -26,9 +27,6 @@
 
 }
 
-
-
-
 @font-face {
   font-family: 'playfair_display';
   src: url('../fonts/playfairdisplay-italic-webfont.eot');
@@ -40,9 +38,6 @@
   font-style: italic;
 
 }
-
-
-
 
 @font-face {
   font-family: 'playfair_display';
@@ -56,9 +51,6 @@
 
 }
 
-
-
-
 @font-face {
   font-family: 'raleway';
   src: url('../fonts/raleway-light-webfont.eot');
@@ -70,9 +62,6 @@
   font-style: normal;
 
 }
-
-
-
 
 @font-face {
   font-family: 'raleway';
@@ -86,9 +75,6 @@
 
 }
 
-
-
-
 @font-face {
   font-family: 'raleway';
   src: url('../fonts/raleway-medium-webfont.eot');
@@ -101,9 +87,6 @@
 
 }
 
-
-
-
 @font-face {
   font-family: 'raleway';
   src: url('../fonts/raleway-mediumitalic-webfont.eot');
@@ -114,46 +97,17 @@
   font-weight: normal;
   font-style: italic;
 
-}/*
-
-ul {
-  list-style-type: none;
 }
 
-ol {
-  list-style-type: none;
-}
+/*Getting into the site General stuff */
+/*Getting into the site General stuff */
+/*Getting into the site General stuff */
 
-
-/*
-p {
-  color: black;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: bold;
-  letter-spacing: 2px;
-  line-height: 1.5;
-  text-align: none;
-  text-decoration: normal;
-  text-transform: none;
-  word-spacing: 15px;
-}
-*/
-/* Box model Traits */
-/*
-p {
-  margin: 15px;
-  border-top: 1px solid black;
-  border-bottom: 3px dotted blue;
-  padding-left: 30px;
-  width: 300px;
-}
-*/
 body {
-  width: 420px;
+  width: 420px;    /* CHANGE FOR MEDIA */
   margin: 0 auto;
   font-family: 'Raleway', Arial, sans-serif;
-  font-size: 87.5%;
+  font-size: 87.5%;   /* CHANGE FOR MEDIA */
   color: #2d2d2d;
 }
 
@@ -193,7 +147,7 @@ header {
   display: flex;
   order: 1;
   width: 75%;
-  display: none;
+  display: none;    /* CHANGE FOR MEDIA */
 }
 
 .nav {
@@ -211,19 +165,15 @@ header {
   display: flex ;
   order: 2;
   width: 25%;
-  display: none;
+  display: none;    /* CHANGE FOR MEDIA */
 }
 
 .container, .nav, .a3, .s3, .a4, .s4, .updates {
   padding: 20px 2px 2px 0px;
-  width: 420px;
+  width: 420px;       /* CHANGE FOR MEDIA */
   margin: 0 auto;
   text-align: center;
 }
-
-/* .a1.container { 
-  padding: 20px 0 20px 0px;
-}*/
 
 .container p {
   padding: 10px 0 20px 0;
@@ -240,6 +190,7 @@ header {
 /* Banner with 2 background images and text centered */
 /* Banner with 2 background images and text centered */
 /* Banner with 2 background images and text centered */
+
 .collection, .season {
     text-align: center;
     font-size: 60px;
@@ -296,7 +247,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
-  size: 420px;
+  size: 420px;     /* CHANGE FOR MEDIA */
 }
 
 .men {
@@ -304,7 +255,7 @@ header {
  background-size: contain;
  margin: 1px 1px 1px 1px;
  background-size: 420px 50%;
- width: 99%;
+ width: 99%;       /* CHANGE FOR MEDIA */
  height: 150px;
  background-position: center;
  background-repeat: no-repeat;
@@ -321,9 +272,9 @@ header {
   background: url(../images/trends-category.jpg);
   background-size: contain;
   margin: 1px 1px 1px 1px;
-  background-size: 420px 50%;
-  width: 49%;
-  height: 150px;
+  background-size: 420px 50%;   /* CHANGE FOR MEDIA */
+  width: 49%;     /* CHANGE FOR MEDIA */
+  height: 150px;   /* vw??? */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -339,9 +290,9 @@ header {
   background: url(../images/glasses-category.jpg);
   background-size: contain;
   margin: 1px 1px 1px 1px;
-  background-size: 420px 50%;
-  width: 49%;
-  height: 150px;
+  background-size: 420px 50%;   /* CHANGE FOR MEDIA */
+  width: 49%;          /* CHANGE FOR MEDIA */
+  height: 150px;       /* CHANGE FOR MEDIA */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -357,9 +308,9 @@ header {
   background: url(../images/sale-category.jpg);
   background-size: contain;
   margin: 1px 1px 1px 1px;
-  background-size: 420px 50%;
-  width: 49%;
-  height: 150px;
+  background-size: 420px 50%;   /* CHANGE FOR MEDIA */
+  width: 49%;             /* CHANGE FOR MEDIA */
+  height: 150px;           /* CHANGE FOR MEDIA */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -374,10 +325,10 @@ header {
 .bag {
   background: url(../images/bags-category.jpg);
   background-size: contain;
-  margin: 1px 1px 1px 1px;
-  background-size: 420px 50%;
-  width: 49%;
-  height: 150px;
+  margin: 1px 1px 1px 1px; 
+  background-size: 420px 50%;    /* CHANGE FOR MEDIA */
+  width: 49%;                /* CHANGE FOR MEDIA */
+  height: 150px;            /* CHANGE FOR MEDIA */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -393,9 +344,9 @@ header {
   background: url(../images/womens-category.jpg);
   background-size: contain;
   margin: 1px 1px 1px 1px;
-  background-size: 420px 50%;
-  width: 99%;
-  height: 150px;
+  background-size: 420px 50%;      /* CHANGE FOR MEDIA */
+  width: 99%;             /* CHANGE FOR MEDIA */
+  height: 150px;            /* CHANGE FOR MEDIA */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -409,7 +360,6 @@ header {
 
 
 
-
 /* Sign up for updates text with background image */
 /* Sign up for updates text with background image */
 /* Sign up for updates text with background image */
@@ -418,7 +368,7 @@ header {
   background: url(../images/wave-bkgd.jpg);
   background-size: contain;
   margin: 2em 0px .5em 0px;
-  background-size: 420px 100%;
+  background-size: 420px 100%;      /* CHANGE FOR MEDIA */
   display: flex;
   flex-direction: column;
   align-content: space-around;
@@ -446,8 +396,7 @@ input {
     border: 0;
     border-radius: 50px 50px 50px 50px;
     margin-left: 16px;
-    /* margin-bottom: 5px; */
-    color: #969696;
+      color: #969696;
     padding: 10px 0 10px 5px;
     width: 5cm;
     height: 20px;
@@ -459,12 +408,11 @@ input {
     color: #ffffff;
     padding: 10px 16px;
     border: 0;
-      /* margin-bottom: 5px; */
-  }
+}
 
   button:hover {
     color: #000000;
-  }
+}
 
 
 /* Address and Social media links with awesome font icons */
@@ -487,7 +435,6 @@ footer {
   flex-direction: column;
   align-self: center;
   text-align: center;
-
 }
 
 .copyright a {
@@ -497,8 +444,7 @@ footer {
 .socialmedia {
   display: flex;
   order: 2;
-  flex-direction: row;
-  /* text-align: left; */
+  flex-direction: row;         /* CHANGE FOR MEDIA */
   align-self: space-around;
   justify-content: space-around;
   list-style-type: none;
@@ -536,39 +482,116 @@ a:active {
 /* external css: flickity.css */
 
 * { box-sizing: border-box; }
-
-/* body { font-family: sans-serif; } */
-.main-carousel {
-
+.carousel-cell {
+  width: 100%;  /* Need to change to 50% at 600px : 25% @ 1240px */
 }
 
 .carousel {
   background: #EEE;
 }
 
-/* .carousel-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
-} */
-
-/* cell number */
-/* .carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-} */
 
 
+@media all and (min-width: 600px); {
+ 
+  /*Getting into the site General stuff */
 
-/* @media all and (min-width: 600px); {
-  all new applicable CSS goes in here
-}*/
+  body {
+    width: 420px;    /* CHANGE FOR MEDIA */
+    font-size: 87.5%;   /* CHANGE FOR MEDIA */
+  }
+
+  /* Top part with logo, cart and nav links */
+  /* Top box flex box attempt */
+  .logo {
+    display: none;    /* CHANGE FOR MEDIA */
+  }
+
+  .cart {
+    display: none;    /* CHANGE FOR MEDIA */
+  }
+    
+
+  .container, .nav, .a3, .s3, .a4, .s4, .updates {
+    width: 420px;       /* CHANGE FOR MEDIA */
+  }
+     
+
+  /* FLEXBOX Categories */
+
+  /* Categories - attempting Flex box.  two lines
+  Using Class Box (box1, box2) and p*/
+
+  .box2 {
+    size: 420px;     /* CHANGE FOR MEDIA */
+  }
+    
+  .men {
+    background-size: 420px 50%;
+    width: 99%;       /* CHANGE FOR MEDIA */
+  }
+    
+  .trend {
+    background-size: 420px 50%;   /* CHANGE FOR MEDIA */
+    width: 49%;     /* CHANGE FOR MEDIA */
+    height: 150px;   /* vw??? */
+  }
+    
+  .glass {
+    background-size: 420px 50%;   /* CHANGE FOR MEDIA */
+    width: 49%;          /* CHANGE FOR MEDIA */
+    height: 150px;       /* CHANGE FOR MEDIA */
+  }
+    
+  .sale {
+    background-size: 420px 50%;   /* CHANGE FOR MEDIA */
+    width: 49%;             /* CHANGE FOR MEDIA */
+    height: 150px;           /* CHANGE FOR MEDIA */
+  }
+    
+  .bag {
+    background-size: 420px 50%;    /* CHANGE FOR MEDIA */
+    width: 49%;                /* CHANGE FOR MEDIA */
+    height: 150px;            /* CHANGE FOR MEDIA */
+  }
+    
+  .women {
+    background-size: 420px 50%;      /* CHANGE FOR MEDIA */
+    width: 99%;             /* CHANGE FOR MEDIA */
+    height: 150px;            /* CHANGE FOR MEDIA */
+  }
+
+  /* Sign up for updates text with background image */
+
+  .updates {
+    background-size: 420px 100%;      /* CHANGE FOR MEDIA */
+  }
+
+  /* Address and Social media links with awesome font icons */
+
+  .socialmedia {
+    flex-direction: row;         /* CHANGE FOR MEDIA */
+  }
+
+  /* FLICKITY FLICKITY FLICKITY */
+  /* external css: flickity.css */
+
+  .carousel-cell {
+    width: 100%;  /* Need to change to 50% at 600px : 25% @ 1240px */
+  }
+
+  /*all new applicable CSS goes in here*/
+}
+
+
+
+
+
+
+
 
 /* @media all and (min-width: 1240px); */
+
+
+/* CHANGE FOR MEDIA */
+/* CHANGE FOR MEDIA */

@@ -69,10 +69,10 @@ $('.main-carousel').flickity({
       },
       submitHandler: function() { 
         if(successStatus == "yes"){
-          alert("Submitted! " + inputText);
+          alert("Submitted! " + inputText + '  Thank-you.');
         } 
         else {
-          alert('Why no email');
+          alert('Your email address isn\'t valid.  Please try again');
         }
        
       }

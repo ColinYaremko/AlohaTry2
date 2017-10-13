@@ -43,13 +43,15 @@ Add additional notes about how to deploy this on a live system
 
 Built With
 
-Visual Studio Code - The HTML, CSS Editor
-Chrome - Testing platform
-Flickity - Used to generate carousel
+Visual Studio Code - The "Editor" - https://code.visualstudio.com/
+Chrome - Testing platform - Google.ca
+Flickity - Used to generate carousel - https://flickity.metafizzy.co/
+.validate - jQuery Validation Plugin - https://jqueryvalidation.org/
 
 Contributing
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Flickity - Used to generate carousel - https://flickity.metafizzy.co/
+.validate - jQuery Validation Plugin - https://jqueryvalidation.org/
 
 Versioning
 
@@ -58,6 +60,9 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 Authors
 
 Colin Yaremko - Initial work
+Jim with his amazing js knowledge
+Rose too
+wdp-fall-2017 classmates
 See also the list of contributors who participated in this project.
 
 License
