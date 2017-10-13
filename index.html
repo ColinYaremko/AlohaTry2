@@ -13,6 +13,10 @@
     <!--<link rel="stylesheet" href="awesome/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
   </head>
 
 
@@ -20,14 +24,14 @@
     <header>
 
       <!-- Top part with logo, cart and nav links -->
-      <h1>Aloha Apparel Co.</h1>
+      <!-- <h1>Aloha Apparel Co.</h1> -->
       <img class="logo" src="images/aloha-logo.svg" alt="Aloha Apparel Co.">
       <img class="cart" src="images/cart-icon.svg" alt="Cart Icon"/>
       <ul class="nav">
-        <li>About</li>
-        <li>Shop</li>
-        <li>Featured</li>
-        <li>Updates</li>
+        <li><a href="#navAbout">About</a></li>
+        <li><a href="#navShop">Shop</a></li>
+        <li><a href="#navFeatured">Featured</a></li>
+        <li><a href="#navUpdates">Updates</a></li>
       </ul>
     </header>
 
@@ -39,13 +43,13 @@
     </section>
 
     <!--Third section - Pretty much text  -->
-    <section class="a1 container">
+    <section class="a1 container" id="navAbout">
       <h3><em>Hand-Crafted</em> Styles</h3>
       <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing.  Browse our current selection of products or sign-up for updates below.</p>
     </section>    
 
     <!-- Categories using flexbox in css -->
-    <div class=box>  
+    <div class=box id="navShop">  
      <article class="box1">
        <p class="men">Men's</p>
        <p class="trend">Trends</p>
@@ -63,30 +67,30 @@
       <h3><em>Most-Loved</em> Products</h3>
     </article>
     
-    <section class="s3">
-      <ul>
-        <li> 
+    <section  class="s3" id="navFeatured">
+      <ul class="main-carousel">
+        <li class="carousel-cell"> 
           <img src="images/checked-stretch-dress.jpg" alt="Image of checked stretch dress"/>
           <p>Dresses</p>
           <h3>Checked Stretch Dress</h3>
           <p>$129.00</p>
         </li>
 
-        <li> 
+        <li class="carousel-cell"> 
           <img src="images/blue-hipster-backpack.jpg" alt="Image of blue hipster backpack"/>
           <p>Bags</p>
           <h3>Blue Hipster Backpack</h3>
           <p>$69.00<p>
         </li>
 
-        <li>
+        <li class="carousel-cell">
           <img src="images/denim-overall-shorts.jpg" alt="Image of Denim Overall Shorts"/>
           <p>Denim</p>
           <h3>Denim Overall Shorts</h3>
           <p>$89.00</p>
         </li>
 
-        <li>
+        <li class="carousel-cell">
           <img src="images/pink-dotted-dress.jpg" alt="Image of Pink Dotted Dress"/>
           <p>Dresses</p>
           <h3>Pink Dotted Dress</h3>
@@ -97,7 +101,7 @@
 
 
     <!-- Sign up for updates text with background image -->
-    <div class="updates">
+    <div class="updates" id="navUpdates">
       <article class="a4">
         <h2><em>Sign-up for</em> Updates</h2>
       </article>
@@ -109,8 +113,8 @@
 
 <!-- Email submit box here -->
       <section class="sbuttton">
-        <form>
-          <input type="email" name="Email" value="Your E-Mail Address"/><button>Subscribe</button>
+        <form id="subscribe-form">
+          <input id="subscribe-email" type="email" name="Email" placeholder="Your E-Mail Address"/><button>Subscribe</button>
         </form>
       </section>
     </div>
@@ -135,9 +139,18 @@
         <li><i class="fa fa-pinterest" aria-hidden="true"></i><a href="http://www.Pinterest.com" target="_blank"> Pinterest</a></li>
         <li><i class="fa fa-google-plus" aria-hidden="true"></i><a href="https://plus.google.com/" target="_blank"> Google+</a></li>
       </ol>
-    </footer>
+  </footer>
 
-  </body>
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  
+  <script src="./scripts.js/write.js"></script>
+
+  <!-- <script src="./scripts/flickity-docs.min.js"></script> -->
+
+
+
+</body>
 
  
 </html>

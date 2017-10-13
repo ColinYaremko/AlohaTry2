@@ -157,6 +157,18 @@ body {
   color: #2d2d2d;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'playfair_display', Arial, sans-serif;
 }
@@ -165,16 +177,10 @@ h3, .nav li {
   color: #e2574c
 }
 
-.banner {
-  border: 5px #ffffff;
-  filter: grayscale(50%);
-  opacity: 50%;
-}
-
 /* Top part with logo, cart and nav links */
 /* Top part with logo, cart and nav links */
 /* Top part with logo, cart and nav links */
-/* Top Rox flex box attempt */
+/* Top box flex box attempt */
 
 header {
   display: flex;
@@ -183,11 +189,11 @@ header {
   align-content: space-between;
 }
 
-
 .logo {
   display: flex;
   order: 1;
   width: 75%;
+  display: none;
 }
 
 .nav {
@@ -205,6 +211,7 @@ header {
   display: flex ;
   order: 2;
   width: 25%;
+  display: none;
 }
 
 .container, .nav, .a3, .s3, .a4, .s4, .updates {
@@ -424,12 +431,12 @@ header {
 
 form {
   	background-color: #ffffff;
-    padding: 5px 25px 10px 5px;
+    padding: 5px;
     border-radius: 50px;
     width: 72%;
-    height: 2em;
     align: center;
     display: flex;
+    align-items: center; 
     margin: 0 auto;
     margin-bottom: 1em;
 }
@@ -439,9 +446,11 @@ input {
     border: 0;
     border-radius: 50px 50px 50px 50px;
     margin-left: 16px;
+    /* margin-bottom: 5px; */
     color: #969696;
-    padding: 0 0 0px 5px;
+    padding: 10px 0 10px 5px;
     width: 5cm;
+    height: 20px;
 }
 
   button{
@@ -450,6 +459,7 @@ input {
     color: #ffffff;
     padding: 10px 16px;
     border: 0;
+      /* margin-bottom: 5px; */
   }
 
   button:hover {
@@ -462,8 +472,10 @@ input {
 /* Address and Social media links with awesome font icons */
 footer {
   display: flex;
-  Justify-content: space-between;
-  align-content: flex-end;
+  flex-direction: column;
+  Justify-content: center;
+  align-content: space-around;
+  align-items: center;
   background-color: #242424;
   color: #969696;
   padding: 1em 1em 1em 1em;
@@ -473,7 +485,9 @@ footer {
   display: flex;
   order: 1;
   flex-direction: column;
-  align-self: flex-end;
+  align-self: center;
+  text-align: center;
+
 }
 
 .copyright a {
@@ -483,11 +497,12 @@ footer {
 .socialmedia {
   display: flex;
   order: 2;
-  flex-direction: column;
-  text-align: left;
-  align-self: flex-end;
-  justify-content: space-between;
+  flex-direction: row;
+  /* text-align: left; */
+  align-self: space-around;
+  justify-content: space-around;
   list-style-type: none;
+  padding: 5px 0 0 0;
 }
 
 .socialmedia li {
@@ -496,23 +511,64 @@ footer {
 
 a:link {
   color: #969696; /* unvisited link */
+  text-decoration: none;
 }
 
 a:visited {
   color: #969696; /* visited link */
+  text-decoration: none;
 }
 
 a:hover {
   color: #b64036; /* mouse over link */
+  text-decoration: none;
 }
 
 a:active {
   color: blue; /* selected link */
+  text-decoration: none;
 }
 
 
+/* FLICKITY FLICKITY FLICKITY */
+/* FLICKITY FLICKITY FLICKITY */
+/* FLICKITY FLICKITY FLICKITY */
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+/* body { font-family: sans-serif; } */
+.main-carousel {
+
+}
+
+.carousel {
+  background: #EEE;
+}
+
+/* .carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+} */
+
+/* cell number */
+/* .carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */
 
 
-/* @media all and (max-width: 720px); */
 
-/* @media all and (max-width: 1240px); */
+/* @media all and (min-width: 600px); {
+  all new applicable CSS goes in here
+}*/
+
+/* @media all and (min-width: 1240px); */
