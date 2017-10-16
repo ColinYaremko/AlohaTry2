@@ -52,6 +52,9 @@ Contributing
 
 Flickity - Used to generate carousel - https://flickity.metafizzy.co/
 .validate - jQuery Validation Plugin - https://jqueryvalidation.org/
+Jim with his amazing js knowledge
+Rose too
+wdp-fall-2017 classmates
 
 Versioning
 
@@ -59,10 +62,8 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 
 Authors
 
-Colin Yaremko - Initial work
-Jim with his amazing js knowledge
-Rose too
-wdp-fall-2017 classmates
+Colin Yaremko - blood, sweat and tears without sleep
+
 See also the list of contributors who participated in this project.
 
 License
