@@ -1,21 +1,25 @@
 //alert('Hello World!');
 
 
-$('.main-carousel').flickity({
-  // options
-  cellAlign: 'left',
-  contain: true,
-  cellSelector: '.carousel-cell',
-  prevNextButtons: false,
-  autoPlay: true,
-  groupCells: 1
-});
+$(document).ready(function() { //Build DOM first!!!!
+  
+
+
+  $('.main-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    cellSelector: '.carousel-cell',
+    prevNextButtons: false,
+    autoPlay: true,
+    groupCells: 1
+  });
 
 
 
-/*https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
-*/
- $(document).ready(function () {
+  /*https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
+  */
+  $(document).ready(function () {
     // Add smooth scrolling to all links
     $("a").on('click', function (event) {
 
@@ -78,5 +82,6 @@ $('.main-carousel').flickity({
       }
     });
 
-
+  });
+  
 //alert('Good bye world!');
