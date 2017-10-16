@@ -1,7 +1,7 @@
 
-/* All of hte wonderful fonts!!!*/
-/* All of hte wonderful fonts!!!*/
-/* All of hte wonderful fonts!!!*/
+/* All of the wonderful fonts!!!*/
+/* All of the wonderful fonts!!!*/
+/* All of the wonderful fonts!!!*/
 
 @font-face {
   font-family: 'playfair_display';
@@ -104,10 +104,10 @@
 /*Getting into the site General stuff */
 
 body {
-  width: 420px;    /* CHANGE FOR MEDIA */
+  width: 420px;    
   margin: 0 auto;
   font-family: 'Raleway', Arial, sans-serif;
-  font-size: 87.5%;   /* CHANGE FOR MEDIA */
+  font-size: 87.5%;   
   color: #2d2d2d;
 }
 
@@ -140,14 +140,13 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-between;
+  align-content: space-around;
 }
 
 .logo {
   display: flex;
   order: 1;
   width: 75%;
-  display: none;    /* CHANGE FOR MEDIA */
 }
 
 .nav {
@@ -161,16 +160,20 @@ header {
   justify-content: space-between;
 }
 
+.nav .navIn  {
+  color: #e2574c;
+  text-decoration: none;
+}
+
 .cart {
   display: flex ;
   order: 2;
   width: 25%;
-  display: none;    /* CHANGE FOR MEDIA */
 }
 
 .container, .nav, .a3, .s3, .a4, .s4, .updates {
   padding: 20px 2px 2px 0px;
-  width: 420px;       /* CHANGE FOR MEDIA */
+  width: 420px;      
   margin: 0 auto;
   text-align: center;
 }
@@ -185,6 +188,7 @@ header {
 
 .nav li {
   display: inline;
+  text-decoration: none;
 }
 
 /* Banner with 2 background images and text centered */
@@ -211,7 +215,7 @@ header {
   background-position: center 60px, center top;
   background-repeat: no-repeat, no-repeat;
   background-size: 150px, cover;
-  margin-top: 60px;
+  margin-top: 30px;
   height: 400px;
   width: 100%;
   text-align: center;
@@ -228,6 +232,7 @@ header {
 
 /* Categories - attempting Flex box.  two lines
  Using Class Box (box1, box2) and p*/
+
 .box {
   display: flex;
   flex-direction: column;
@@ -247,7 +252,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
-  size: 420px;     /* CHANGE FOR MEDIA */
+  size: 420px;     
 }
 
 .men {
@@ -255,7 +260,7 @@ header {
  background-size: contain;
  margin: 1px 1px 1px 1px;
  background-size: 420px 50%;
- width: 99%;       /* CHANGE FOR MEDIA */
+ width: 99%;       
  height: 150px;
  background-position: center;
  background-repeat: no-repeat;
@@ -272,9 +277,9 @@ header {
   background: url(../images/trends-category.jpg);
   background-size: contain;
   margin: 1px 1px 1px 1px;
-  background-size: 420px 50%;   /* CHANGE FOR MEDIA */
-  width: 49%;     /* CHANGE FOR MEDIA */
-  height: 150px;   /* vw??? */
+  background-size: 420px 50%;   
+  width: 49%;     
+  height: 150px;   
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -290,9 +295,9 @@ header {
   background: url(../images/glasses-category.jpg);
   background-size: contain;
   margin: 1px 1px 1px 1px;
-  background-size: 420px 50%;   /* CHANGE FOR MEDIA */
-  width: 49%;          /* CHANGE FOR MEDIA */
-  height: 150px;       /* CHANGE FOR MEDIA */
+  background-size: 420px 50%;   
+  width: 49%;          
+  height: 150px;       
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -308,9 +313,9 @@ header {
   background: url(../images/sale-category.jpg);
   background-size: contain;
   margin: 1px 1px 1px 1px;
-  background-size: 420px 50%;   /* CHANGE FOR MEDIA */
-  width: 49%;             /* CHANGE FOR MEDIA */
-  height: 150px;           /* CHANGE FOR MEDIA */
+  background-size: 420px 50%;   
+  width: 49%;             
+  height: 150px;           
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -326,9 +331,9 @@ header {
   background: url(../images/bags-category.jpg);
   background-size: contain;
   margin: 1px 1px 1px 1px; 
-  background-size: 420px 50%;    /* CHANGE FOR MEDIA */
-  width: 49%;                /* CHANGE FOR MEDIA */
-  height: 150px;            /* CHANGE FOR MEDIA */
+  background-size: 420px 50%;    
+  width: 49%;                
+  height: 150px;            
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -344,9 +349,9 @@ header {
   background: url(../images/womens-category.jpg);
   background-size: contain;
   margin: 1px 1px 1px 1px;
-  background-size: 420px 50%;      /* CHANGE FOR MEDIA */
-  width: 99%;             /* CHANGE FOR MEDIA */
-  height: 150px;            /* CHANGE FOR MEDIA */
+  background-size: 420px 50%;      
+  width: 99%;             
+  height: 150px;            
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -368,7 +373,7 @@ header {
   background: url(../images/wave-bkgd.jpg);
   background-size: contain;
   margin: 2em 0px .5em 0px;
-  background-size: 420px 100%;      /* CHANGE FOR MEDIA */
+  background-size: 420px 100%;      
   display: flex;
   flex-direction: column;
   align-content: space-around;
@@ -384,7 +389,7 @@ form {
     padding: 5px;
     border-radius: 50px;
     width: 72%;
-    align: center;
+    text-align: center;
     display: flex;
     align-items: center; 
     margin: 0 auto;
@@ -396,7 +401,7 @@ input {
     border: 0;
     border-radius: 50px 50px 50px 50px;
     margin-left: 16px;
-      color: #969696;
+    color: #969696;
     padding: 10px 0 10px 5px;
     width: 5cm;
     height: 20px;
@@ -408,7 +413,7 @@ input {
     color: #ffffff;
     padding: 10px 16px;
     border: 0;
-}
+    }
 
   button:hover {
     color: #000000;
@@ -418,6 +423,7 @@ input {
 /* Address and Social media links with awesome font icons */
 /* Address and Social media links with awesome font icons */
 /* Address and Social media links with awesome font icons */
+
 footer {
   display: flex;
   flex-direction: column;
@@ -439,39 +445,34 @@ footer {
 
 .copyright a {
   padding: .5em 0;
+  color: #ffffff;
+}
+
+.copyright .info {
+  color: #ffffff;
 }
 
 .socialmedia {
   display: flex;
   order: 2;
-  flex-direction: row;         /* CHANGE FOR MEDIA */
+  flex-direction: row;         
   align-self: space-around;
   justify-content: space-around;
   list-style-type: none;
   padding: 5px 0 0 0;
-}
+  }
 
 .socialmedia li {
   padding: .4em 0;
-}
+ }
 
-a:link {
-  color: #969696; /* unvisited link */
-  text-decoration: none;
-}
-
-a:visited {
-  color: #969696; /* visited link */
+.socialmedia a {
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
   color: #b64036; /* mouse over link */
-  text-decoration: none;
-}
-
-a:active {
-  color: blue; /* selected link */
   text-decoration: none;
 }
 
@@ -483,7 +484,7 @@ a:active {
 
 * { box-sizing: border-box; }
 .carousel-cell {
-  width: 100%;  /* Need to change to 50% at 600px : 25% @ 1240px */
+  width: 100%;  
 }
 
 .carousel {
@@ -491,107 +492,327 @@ a:active {
 }
 
 
+/*NEW MEDIA PAGE BREAK*/
+/*NEW MEDIA PAGE BREAK*/
+/*NEW MEDIA PAGE BREAK*/
+/*NEW MEDIA PAGE BREAK*/
+/*NEW MEDIA PAGE BREAK*/
 
-@media all and (min-width: 600px); {
+@media all and (min-width: 600px) {
  
   /*Getting into the site General stuff */
 
   body {
-    width: 420px;    /* CHANGE FOR MEDIA */
-    font-size: 87.5%;   /* CHANGE FOR MEDIA */
+    width: 600px;    
+    font-size: 150%;   
   }
 
   /* Top part with logo, cart and nav links */
   /* Top box flex box attempt */
+
+  header {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
   .logo {
-    display: none;    /* CHANGE FOR MEDIA */
+    width: 20%;    
+  }
+
+  .nav {
+    order: 2;
+    justify-content: space-evenly;
   }
 
   .cart {
-    display: none;    /* CHANGE FOR MEDIA */
+    width: 15%;    
+    order: 3;
   }
     
 
   .container, .nav, .a3, .s3, .a4, .s4, .updates {
-    width: 420px;       /* CHANGE FOR MEDIA */
+    width: 600px;       
   }
      
+  .a1 h3{
+    margin: 0 auto;
+    margin: 50px 0 20px 0;
+    color: #000000;
+  }
+
+  .a1Text p{
+    margin: 0 auto;
+    margin: 10px 0 0px 0;
+    padding: 0 0 0 0;
+  }
+
+
+  .a3 h3 {
+    color:#000000;
+  }
+
 
   /* FLEXBOX Categories */
 
   /* Categories - attempting Flex box.  two lines
   Using Class Box (box1, box2) and p*/
 
+  .box1 {
+    size: 600px;     
+    height: 160px;
+  } 
+
   .box2 {
-    size: 420px;     /* CHANGE FOR MEDIA */
+    size: 600px;     
+    height: 160px;
+    margin-bottom: 60px;
   }
     
   .men {
-    background-size: 420px 50%;
-    width: 99%;       /* CHANGE FOR MEDIA */
+    background-size: 600px 50%;
+    width: 49%;       
+    height : 300px;
   }
     
   .trend {
-    background-size: 420px 50%;   /* CHANGE FOR MEDIA */
-    width: 49%;     /* CHANGE FOR MEDIA */
-    height: 150px;   /* vw??? */
+    background-size: 600px 50%;   
+    width: 24%;    
+    height : 300px;   
   }
     
   .glass {
-    background-size: 420px 50%;   /* CHANGE FOR MEDIA */
-    width: 49%;          /* CHANGE FOR MEDIA */
-    height: 150px;       /* CHANGE FOR MEDIA */
+    background-size: 600px 50%;   
+    width: 24%;          
+    height : 300px;       
   }
     
   .sale {
-    background-size: 420px 50%;   /* CHANGE FOR MEDIA */
-    width: 49%;             /* CHANGE FOR MEDIA */
-    height: 150px;           /* CHANGE FOR MEDIA */
+    background-size: 600px 50%;  
+    width: 24%;             
+    height : 300px;        
   }
     
   .bag {
-    background-size: 420px 50%;    /* CHANGE FOR MEDIA */
-    width: 49%;                /* CHANGE FOR MEDIA */
-    height: 150px;            /* CHANGE FOR MEDIA */
+    background-size: 600px 50%;   
+    width: 24%;               
+    height : 300px;            
   }
     
   .women {
-    background-size: 420px 50%;      /* CHANGE FOR MEDIA */
-    width: 99%;             /* CHANGE FOR MEDIA */
-    height: 150px;            /* CHANGE FOR MEDIA */
+    background-size: 600px 50%;      
+    width: 49%;            
+    height : 300px;        
   }
 
   /* Sign up for updates text with background image */
 
   .updates {
-    background-size: 420px 100%;      /* CHANGE FOR MEDIA */
+    background-size: 600px 100%;      
   }
+
+  .a4 {
+    color: #ffffff;
+  }
+  
+  .s4 {
+    color: #ffffff;
+  }
+
+  input {
+    width: 5cm;
+  }
+
 
   /* Address and Social media links with awesome font icons */
 
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .copyright p {
+    text-align: left;
+  }
+  
   .socialmedia {
-    flex-direction: row;         /* CHANGE FOR MEDIA */
+    flex-direction: column;         
   }
 
   /* FLICKITY FLICKITY FLICKITY */
   /* external css: flickity.css */
 
   .carousel-cell {
-    width: 100%;  /* Need to change to 50% at 600px : 25% @ 1240px */
+    width: 50%;  
   }
 
-  /*all new applicable CSS goes in here*/
+  
 }
 
 
 
 
 
+/*NEW MEDIA PAGE BREAK*/
+/*NEW MEDIA PAGE BREAK*/
+/*NEW MEDIA PAGE BREAK*/
+/*NEW MEDIA PAGE BREAK*/
+/*NEW MEDIA PAGE BREAK*/
+
+
+@media all and (min-width: 1240px) {
+
+
+  
+   /*Getting into the site General stuff */
+ 
+   body {
+     width: 1240px;    
+     font-size: 150%;   
+   }
+ 
+   /* Top part with logo, cart and nav links */
+   /* Top box flex box attempt */
+   header {
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     align-items: center;
+   }
+ 
+   .logo {
+     width: 20%;   
+   }
+ 
+   .nav {
+     order: 2;
+     justify-content: space-evenly;
+   }
+ 
+   .cart {
+     width: 15%;    
+     order: 3;
+   }
+     
+ 
+   .container, .nav, .a3, .s3, .a4, .s4, .updates {
+     width: 1240px;       
+   }
+      
+   .a1 h3{
+     margin: 0 auto;
+     margin: 50px 0 20px 0;
+     color: #000000;
+   }
+ 
+  .a1 p {
+     margin: 0 auto;
+     margin: 10px 0 0px 0;
+     padding: 0 200px 0 200px;
+     line-height: 1.5em;
+   }
+ 
+ 
+   .a3 h3 {
+     color:#000000;
+   }
+   /* FLEXBOX Categories */
+ 
+   /* Categories - attempting Flex box.  two lines
+   Using Class Box (box1, box2) and p*/
+   .box1 {
+     size: 1240px;    
+     height: 400px;
+     margin-top: 60px;
+   } 
+ 
+   .box2 {
+     size: 1240px;     
+     height: 400px;
+     margin-bottom: 60px;
+     margin-top: 10px;
+   }
+     
+   .men {
+     background-size: 1240px 99%;
+     width: 49%;       
+     height : 400px;
+   }
+     
+   .trend {
+     background-size: 1240px 99%;  
+     width: 24%;     
+     height : 400px;   
+   }
+     
+   .glass {
+     background-size: 1240px 99%;  
+     width: 24%;         
+     height : 400px;      
+   }
+     
+   .sale {
+     background-size: 1240px 99%;   
+     width: 24%;             
+     height : 400px;       
+   }
+     
+   .bag {
+     background-size: 1240px 99%;    
+     width: 24%;                
+     height : 400px;            
+   }
+     
+   .women {
+     background-size: 1240px 99%;      
+     width: 49%;             
+     height : 400px;       
+   }
+ 
+   /* Sign up for updates text with background image */
+ 
+   .updates {
+     background-size: 1240px 100%;      
+   }
+ 
+   .a4 {
+     color: #ffffff;
+   }
+   
+   .s4 {
+     color: #ffffff;
+   }
+
+   input {
+        width: 20cm;
+   }
+   
+   
+   /* Address and Social media links with awesome font icons */
+ 
+   footer {
+     flex-direction: row;
+     justify-content: space-between;
+   }
+ 
+   .copyright p {
+     text-align: left;
+   }
+   
+   .socialmedia {
+     flex-direction: column;         
+   }
+ 
+   /* FLICKITY FLICKITY FLICKITY */
+   /* external css: flickity.css */
+ 
+   .carousel-cell {
+     width: 25%;  
+   }
+}
+ 
 
 
 
-/* @media all and (min-width: 1240px); */
 
 
-/* CHANGE FOR MEDIA */
-/* CHANGE FOR MEDIA */
+
