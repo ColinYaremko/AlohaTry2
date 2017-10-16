@@ -570,39 +570,39 @@ a:hover {
   }
     
   .men {
-    background-size: 600px 50%;
+    background-size: 600px 99%;
     width: 49%;       
-    height : 300px;
+    height : 150px;
   }
     
   .trend {
-    background-size: 600px 50%;   
+    background-size: 600px 99%;   
     width: 24%;    
-    height : 300px;   
+    height : 150px;   
   }
     
   .glass {
-    background-size: 600px 50%;   
+    background-size: 600px 99%;   
     width: 24%;          
-    height : 300px;       
+    height : 150px;       
   }
     
   .sale {
-    background-size: 600px 50%;  
+    background-size: 600px 99%;  
     width: 24%;             
-    height : 300px;        
+    height : 150px;        
   }
     
   .bag {
-    background-size: 600px 50%;   
+    background-size: 600px 99%;   
     width: 24%;               
-    height : 300px;            
+    height : 150px;            
   }
     
   .women {
-    background-size: 600px 50%;      
+    background-size: 600px 99%;      
     width: 49%;            
-    height : 300px;        
+    height : 150px;        
   }
 
   /* Sign up for updates text with background image */
