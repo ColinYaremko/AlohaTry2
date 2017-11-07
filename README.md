@@ -1,23 +1,23 @@
-Aloha Apparel
+# Aloha Apparel
 
-Project 1 for RED Academy
+## Project 1 for RED Academy
 
-Getting Started
+## Getting Started
 
 * No special instructions required to get up and running.  Open from your computer.
 
 
-Prerequisites
+## Prerequisites
 
 * No installation required.  Hopefully works on most browsers
 
 
-Coding style
+## Coding style
 
-*HTML, CSS, js,
+* HTML, CSS, js,
 
 
-Built With
+## Built With
 
 * Visual Studio Code - The "Editor" - https://code.visualstudio.com/
 
@@ -28,7 +28,7 @@ Built With
 * .validate - jQuery Validation Plugin - https://jqueryvalidation.org/
 
 
-Contributing voices and ideas
+## Contributing voices and ideas
 
 * Flickity - Used to generate carousel - https://flickity.metafizzy.co/
 
@@ -43,23 +43,23 @@ Contributing voices and ideas
 * RED Academy for creating Project 1 - Alhoa
 
 
-Versioning:
+### Versioning:
 
 * As far as I am aware, this will be the only version unless required to make changes or upgrades.
 
 
-Authors
+## Authors
 
 * Colin Yaremko - blood, sweat and tears without sleep
 
 * See also the list of contributors who participated in this project.
 
 
-License
+### License
 
 * No license presently required
 
 
-Acknowledgments
+###Acknowledgments
 
 * See contributions!

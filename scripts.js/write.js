@@ -50,7 +50,52 @@ $(document).ready(function() { //Build DOM first!!!!
   }); //Smooth scroll tested and working presently.
 
 
+ 
+    var emailInput;
+    
+    $("#email-input").on("change", function() {
+      emailInput = $(this).val();
+      // The following watches for the on-change event so it checks the email address for validity, but only checks, it doesn't "subscribe", even if the subscribe button is used to trigger the on-change.
+      if (validateEmail(emailInput)) {
+        $(this).css({
+          color: "white",
+          background: "green",
+          border: "1px solid green"
+        });
 
+        alert('Your email is valid.  Click send.  ');
+        $("#email-input").empty();
+
+      } else {
+        $(this).css({
+          color: "red",
+          border: "1px solid red"
+        });
+    
+        alert("This was not a valid email address");
+      }
+    }); 
+    
+    // clicking the subscribe button alone does nothing.  If the email validation was false, the subscribe button does nothing.  if the email address is valid (true), then it will give the "Yay.  You did it!" alert and refresh the page.
+    $("#subscribe-button").on("click", function(e) {
+      e.preventDefault();
+      if (validateEmail(emailInput)) {
+        alert("Yay.  You did it!");
+      } else {
+        return false;
+        alert("The email address wasn't valid.");
+      }
+    });
+    
+    function validateEmail(email) {
+      var pattern = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    
+      return $.trim(email).match(pattern) ? true : false;
+    };
+}); 
+
+
+     /*
   var inputText,
       successStatus;
 
@@ -63,7 +108,8 @@ $(document).ready(function() { //Build DOM first!!!!
     $.validator.setDefaults({
       debug: false
     });
-
+    */
+    /*
     // https://jqueryvalidation.org/documentation/
     $( "#subscribe-form" ).validate({
       rules: {
@@ -86,7 +132,8 @@ $(document).ready(function() { //Build DOM first!!!!
        
       }
     });
+    */
 
-  });
+ 
   
 //alert('Good bye world!');

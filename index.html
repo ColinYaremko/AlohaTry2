@@ -143,11 +143,15 @@
     
 
     <!-- Email submit box here -->
-      <section class="sbuttton">
-        <form id="subscribe-form">
-          <input id="subscribe-email" type="email" name="Email" placeholder="Your E-Mail Address"/><button>Subscribe</button>
-        </form>
-      </section>
+      <div class="site-wrapper">
+        <section class="sbuttton">
+          <form id="subscribe-form" class="email-form" action="" method="POST">
+            <input class="email-form__input" id='email-input' type="email" placeholder="Your E-Mail Address (email@example.com)">
+            <input id="subscribe-button" class="email-form__button" type="submit" value="Send"  />
+            <!--  <button>Subscribe</button>  -->
+          </form>
+        </section>
+      </div>
     </div>
 
   <!-- Address and Social media links with awesome font icons -->
