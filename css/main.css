@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 /* All of the wonderful fonts!!!*/
 /* All of the wonderful fonts!!!*/
@@ -132,7 +135,7 @@
 /*Getting into the site General stuff */
 
 body {
-  width: 420px;    
+  /* // width: 420px;     */
   margin: 0 auto;
   font-family: 'Raleway', Arial, sans-serif;
   font-size: 87.5%;   
@@ -201,7 +204,7 @@ header {
 
 .container, .nav, .a3, .s3, .a4, .s4, .updates {
   padding: 20px 2px 2px 0px;
-  width: 420px;      
+  /* // width: 420px;       */
   margin: 0 auto;
   text-align: center;
 }
@@ -536,7 +539,7 @@ a:hover {
   /*Getting into the site General stuff */
 
   body {
-    width: 600px;    
+    /* // width: 600px;     */
     font-size: 150%;   
   }
 
@@ -565,7 +568,7 @@ a:hover {
     
 
   .container, .nav, .a3, .s3, .a4, .s4, .updates {
-    width: 600px;       
+    /* // width: 600px;        */
   }
      
   .a1 h3{
@@ -592,56 +595,60 @@ a:hover {
   Using Class Box (box1, box2) and p*/
 
   .box1 {
-    size: 600px;     
-    height: 160px;
+    /* // size: 600px;     
+    // height: 160px; */
+    flex-flow: row nowrap;
   } 
 
   .box2 {
-    size: 600px;     
-    height: 160px;
-    margin-bottom: 60px;
+    /* // size: 600px;     
+    // height: 160px;
+    // margin-bottom: 60px; */
+    flex-flow: row nowrap;
   }
     
   .men {
     background-size: 600px 99%;
-    width: 49%;       
-    height : 150px;
+    width: 50vw;    
+    height : 25vw;   
   }
     
   .trend {
     background-size: 600px 99%;   
-    width: 24%;    
-    height : 150px;   
+    width: 25vw;    
+    height : 25vw;   
   }
     
   .glass {
     background-size: 600px 99%;   
-    width: 24%;          
-    height : 150px;       
+    width: 25vw;    
+    height : 25vw;       
   }
     
   .sale {
     background-size: 600px 99%;  
-    width: 24%;             
-    height : 150px;        
+    width: 25vw;    
+    height : 25vw;         
   }
     
   .bag {
     background-size: 600px 99%;   
-    width: 24%;               
-    height : 150px;            
+    width: 25vw;    
+    height : 25vw;             
   }
     
   .women {
     background-size: 600px 99%;      
-    width: 49%;            
-    height : 150px;        
+    width: 50vw;    
+    height : 25vw;       
   }
 
   /* Sign up for updates text with background image */
 
   .updates {
-    background-size: 600px 100%;      
+    /* // background-size: 600px 100%;       */
+    background-size: cover;
+    background-position: center;
   }
 
   .a4 {
@@ -700,7 +707,7 @@ a:hover {
    /*Getting into the site General stuff */
  
    body {
-     width: 1240px;    
+    /* //  width: 1240px;     */
      font-size: 150%;   
    }
  
@@ -728,7 +735,7 @@ a:hover {
      
  
    .container, .nav, .a3, .s3, .a4, .s4, .updates {
-     width: 1240px;       
+     max-width: 1240px;       
    }
       
    .a1 h3{
@@ -843,9 +850,3 @@ a:hover {
    }
 }
  
-
-
-
-
-
-
