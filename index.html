@@ -1,183 +1,214 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- This is required on all sites! -->
-    <meta charset="utf-8">
 
-    <!-- The title appears in the browser tab -->
-    <title>Aloha Apparel</title>
+<head>
+  <!-- This is required on all sites! -->
+  <meta charset="utf-8">
 
-    <!-- Linking reset CSS -->
-    <link rel="stylesheet" type="text/css" href="css/reset.css"> 
-    <!-- Linking Font Awesome icon CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Linking personal CSS stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- Linking jQuery library -->
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <!-- Linking js for email validate -->
-    <script 
-    src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
-    <!-- Linking FLickity -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
-  </head>
+  <!-- The title appears in the browser tab -->
+  <title>Aloha Apparel</title>
+
+  <!-- Linking reset CSS -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <!-- Linking Font Awesome icon CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Linking personal CSS stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Linking jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <!-- Linking js for email validate -->
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+  <!-- Linking FLickity -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
+</head>
 
 
-  <body>
-    <a class="screen-reader-text" href="#main">Skip to content</a>
-    <header>
+<body>
+  <a class="screen-reader-text" href="#main">Skip to content</a>
+  <header>
 
-      <!-- Top part with logo, cart and nav links -->
-      <!-- <h1>Aloha Apparel Co.</h1> -->
-      <img class="logo" src="images/aloha-logo.svg" alt="Aloha Apparel Co.">
-      <img class="cart" src="images/cart-icon.svg" alt="Cart Icon"/>
-      <ul class="nav">
-        <li><a class="navIn" href="#navAbout">About</a></li>
-        <li><a class="navIn" href="#navShop">Shop</a></li>
-        <li><a class="navIn" href="#navFeatured">Featured</a></li>
-        <li><a class="navIn" href="#navUpdates">Updates</a></li>
-      </ul>
-    </header>
+    <!-- Top part with logo, cart and nav links -->
+    <!-- <h1>Aloha Apparel Co.</h1> -->
+    <img class="logo" src="images/aloha-logo.svg" alt="Aloha Apparel Co.">
+    <img class="cart" src="images/cart-icon.svg" alt="Cart Icon" />
+    <ul class="nav">
+      <li>
+        <a class="navIn" href="#navAbout">About</a>
+      </li>
+      <li>
+        <a class="navIn" href="#navShop">Shop</a>
+      </li>
+      <li>
+        <a class="navIn" href="#navFeatured">Featured</a>
+      </li>
+      <li>
+        <a class="navIn" href="#navUpdates">Updates</a>
+      </li>
+    </ul>
+  </header>
 
-    
-    <!-- Banner with 2 background images and text centered -->
-    <section class="hero">
-      <p class="collection">new collection</p>
-      <h2 class="season">Spring / Summer 2016</h2>
-    </section>
 
-    <!--Third section - Pretty much text  -->
-	<main id="main" class="site-main" tabindex="-1">
-     <p></p>
-    </main>
-    <section class="a1 container" id="navAbout">
-      <h3><em>Hand-Crafted</em> Styles</h3>
-      <p class="a1Text">Aloha Apparel Co. sells only the finest ready-to-travel clothing.  Browse our current selection of products or sign-up for updates below.</p>
-    </section>    
+  <!-- Banner with 2 background images and text centered -->
+  <div class="hero">
+    <p class="collection">new collection</p>
+    <h2 class="season">Spring / Summer 2016</h2>
+  </div>
 
-    <!-- Categories using flexbox in css -->
-    <div class=box id="navShop">  
-     <article class="box1">
-       <p class="men">Men's</p>
-       <p class="trend">Trends</p>
-       <p class="glass">Glasses</p>
-     </article>
-     <article class=box2>
-       <p class="sale">Sale</p>
-       <p class="bag">Bags</p>
-       <p class ="women">Women's</p>
-     </article>
+  <!--Third section - Pretty much text  -->
+  <main id="main" class="site-main" tabindex="-1">
+    <p></p>
+  </main>
+  <div class="third-section container" id="navAbout">
+    <h3>
+      <em>Hand-Crafted</em> Styles</h3>
+    <p class="third-section-ext">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up
+      for updates below.</p>
+  </div>
+
+  <!-- Categories using flexbox in css -->
+  <div class="box" id="navShop">
+    <div class="box1">
+      <p class="men">Men's</p>
+      <p class="trend">Trends</p>
+      <p class="glass">Glasses</p>
+    </div>
+    <div class=box2>
+      <p class="sale">Sale</p>
+      <p class="bag">Bags</p>
+      <p class="women">Women's</p>
+    </div>
+  </div>
+
+  <div class="flickity-header">
+    <h3>
+      <em>Most-Loved</em> Products</h3>
+  </div>
+
+
+  <!-- Carousel items.  Going to need JS-->
+  <div class="carousel-container" id="navFeatured">
+    <ul class="main-carousel">
+      <li class="carousel-cell">
+        <img src="images/checked-stretch-dress.jpg" alt="Image of checked stretch dress" />
+        <p>Dresses</p>
+        <h3>Checked Stretch Dress</h3>
+        <p>$129.00</p>
+      </li>
+
+      <li class="carousel-cell">
+        <img src="images/blue-hipster-backpack.jpg" alt="Image of blue hipster backpack" />
+        <p>Bags</p>
+        <h3>Blue Hipster Backpack</h3>
+        <p>$69.00
+          <p>
+      </li>
+
+      <li class="carousel-cell">
+        <img src="images/denim-overall-shorts.jpg" alt="Image of Denim Overall Shorts" />
+        <p>Denim</p>
+        <h3>Denim Overall Shorts</h3>
+        <p>$89.00</p>
+      </li>
+
+      <li class="carousel-cell">
+        <img src="images/pink-dotted-dress.jpg" alt="Image of Pink Dotted Dress" />
+        <p>Dresses</p>
+        <h3>Pink Dotted Dress</h3>
+        <p>$99.00</p>
+      </li>
+
+      <li class="carousel-cell">
+        <img src="images/blue-silk-dress.jpg" alt="Image of Blue Silk Dress" />
+        <p>Silk</p>
+        <h3>Blue Silk Dress</h3>
+        <p>$99.00</p>
+      </li>
+
+      <li class="carousel-cell">
+        <img src="images/cotton-blue-shirt.jpg" alt="Image of Blue Cotton Shirt" />
+        <p>Cotton</p>
+        <h3>Blue Cotton Shirt</h3>
+        <p>$49.00</p>
+      </li>
+
+      <li class="carousel-cell">
+        <img src="images/cotton-yellow-tshirt.jpg" alt="Image of Yellow Cotton T-Shirt" />
+        <p>T-Shirts</p>
+        <h3>Yellow Cotton T-Shirt</h3>
+        <p>$29.00</p>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- Sign up for updates text with background image -->
+  <div class="updates" id="navUpdates">
+    <div class="updates-header">
+      <h2>
+        <em>Sign-up for</em> Updates</h2>
     </div>
 
-    <article class="a3">
-      <h3><em>Most-Loved</em> Products</h3>
-    </article>
-   
-   
-    <!-- Carousel items.  Going to need JS-->
-    <section  class="s3" id="navFeatured">
-      <ul class="main-carousel">
-        <li class="carousel-cell"> 
-          <img src="images/checked-stretch-dress.jpg" alt="Image of checked stretch dress"/>
-          <p>Dresses</p>
-          <h3>Checked Stretch Dress</h3>
-          <p>$129.00</p>
-        </li>
+    <div class="updates-text">
+      <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from
+        our blog. Unsubscribe at any time.</p>
+    </div>
 
-        <li class="carousel-cell"> 
-          <img src="images/blue-hipster-backpack.jpg" alt="Image of blue hipster backpack"/>
-          <p>Bags</p>
-          <h3>Blue Hipster Backpack</h3>
-          <p>$69.00<p>
-        </li>
-
-        <li class="carousel-cell">
-          <img src="images/denim-overall-shorts.jpg" alt="Image of Denim Overall Shorts"/>
-          <p>Denim</p>
-          <h3>Denim Overall Shorts</h3>
-          <p>$89.00</p>
-        </li>
-
-        <li class="carousel-cell">
-          <img src="images/pink-dotted-dress.jpg" alt="Image of Pink Dotted Dress"/>
-          <p>Dresses</p>
-          <h3>Pink Dotted Dress</h3>
-          <p>$99.00</p>
-        </li>
-
-        <li class="carousel-cell">
-          <img src="images/blue-silk-dress.jpg" alt="Image of Blue Silk Dress"/>
-          <p>Silk</p>
-          <h3>Blue Silk Dress</h3>
-          <p>$99.00</p> 
-        </li>
-
-        <li class="carousel-cell">
-          <img src="images/cotton-blue-shirt.jpg" alt="Image of Blue Cotton Shirt"/>
-          <p>Cotton</p>
-          <h3>Blue Cotton Shirt</h3>
-          <p>$49.00</p> 
-        </li>
-
-        <li class="carousel-cell">
-          <img src="images/cotton-yellow-tshirt.jpg" alt="Image of Yellow Cotton T-Shirt"/>
-          <p>T-Shirts</p>
-          <h3>Yellow Cotton T-Shirt</h3>
-          <p>$29.00</p> 
-        </li>
-      </ul>  
-    </section>
-
-
-    <!-- Sign up for updates text with background image -->
-    <div class="updates" id="navUpdates">
-      <article class="a4">
-        <h2><em>Sign-up for</em> Updates</h2>
-      </article>
-    
-      <section class="s4">  
-        <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog.  Unsubscribe at any time.</p>
-      </section>
-    
 
     <!-- Email submit box here -->
-      <div class="site-wrapper">
-        <section class="sbuttton">
-          <form id="subscribe-form" class="email-form" action="" method="POST">
-            <input class="email-form__input" id='email-input' type="email" placeholder="Your E-Mail Address (email@example.com)">
-            <input id="subscribe-button" class="email-form__button" type="submit" value="Send"  />
-            <!--  <button>Subscribe</button>  -->
-          </form>
-        </section>
+    <div class="site-wrapper">
+      <div class="sbuttton">
+        <form id="subscribe-form" class="email-form" action="" method="POST">
+          <input class="email-form__input" id='email-input' type="email" placeholder="Your E-Mail Address (email@example.com)">
+          <input id="subscribe-button" class="email-form__button" type="submit" value="Send" />
+          <!--  <button>Subscribe</button>  -->
+        </form>
       </div>
     </div>
+  </div>
 
   <!-- Address and Social media links with awesome font icons -->
   <footer>
     <div class="bottom">
-      <section class="copyright">
-        <p class= "info">&copy; 2016 Aloha Apparel Co.</p>
-        <p class= "info">Powered by HTML and CSS.</p>
-        <p class= "info">604-604-6040. <a href="mailto:info@alohaapparel.com">   info@alohaapparel.com</a></p>
+      <div class="copyright">
+        <p class="info">&copy; 2016 Aloha Apparel Co.</p>
+        <p class="info">Powered by HTML and CSS.</p>
+        <p class="info">604-604-6040.
+          <a href="mailto:info@alohaapparel.com"> info@alohaapparel.com</a>
+        </p>
 
         <p>1490 W Broadway</p>
         <p>Vancouver, BC., Canada</p>
-      </section>
+      </div>
     </div>
 
-      <ol class="socialmedia">
-        <li><i class="fa fa-facebook-official" aria-hidden="true"></i><a href="http://www.facebook.com" target="_blank"> Facebook</a></li>
-        <li><i class="fa fa-twitter" aria-hidden="true"></i><a href="http://www.Twitter.com" target="_blank"> Twitter</a></li>
-        <li><i class="fa fa-instagram" aria-hidden="true"></i><a href="http://www.Instagram.com" target="_blank"> Instagram</a></li>
-        <li><i class="fa fa-pinterest" aria-hidden="true"></i><a href="http://www.Pinterest.com" target="_blank"> Pinterest</a></li>
-        <li><i class="fa fa-google-plus" aria-hidden="true"></i><a href="https://plus.google.com/" target="_blank"> Google+</a></li>
-      </ol>
+    <ol class="socialmedia">
+      <li>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <a href="http://www.facebook.com" target="_blank"> Facebook</a>
+      </li>
+      <li>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <a href="http://www.Twitter.com" target="_blank"> Twitter</a>
+      </li>
+      <li>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <a href="http://www.Instagram.com" target="_blank"> Instagram</a>
+      </li>
+      <li>
+        <i class="fa fa-pinterest" aria-hidden="true"></i>
+        <a href="http://www.Pinterest.com" target="_blank"> Pinterest</a>
+      </li>
+      <li>
+        <i class="fa fa-google-plus" aria-hidden="true"></i>
+        <a href="https://plus.google.com/" target="_blank"> Google+</a>
+      </li>
+    </ol>
   </footer>
 
-<!-- Bringing in the js online for flickity and local for personal js -->
+  <!-- Bringing in the js online for flickity and local for personal js -->
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  
+
   <script src="./scripts.js/write.js"></script>
 
 
@@ -186,5 +217,5 @@
 
 </body>
 
- 
+
 </html>

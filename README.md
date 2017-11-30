@@ -1,5 +1,9 @@
 # Aloha Apparel
 
+![alohapic](https://user-images.githubusercontent.com/32310250/33452618-ac3e140c-d5c7-11e7-92b6-80be84d209fc.PNG)
+
+Hosted:  https://colinyaremko.github.io/AlohaTry2/
+
 ## Project 1 for RED Academy
 
 ## Getting Started
